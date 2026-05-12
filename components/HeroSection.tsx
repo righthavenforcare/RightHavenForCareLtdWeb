@@ -61,6 +61,7 @@ export default function HeroSection() {
                 alt="Caregiver supporting an older adult at home"
                 preload
                 quality={100}
+                unoptimized
                 sizes="(max-width: 1024px) 100vw, 52vw"
                 className="h-[320px] w-full rounded-3xl object-cover object-[68%_36%] sm:h-[380px] lg:h-[470px]"
               />
