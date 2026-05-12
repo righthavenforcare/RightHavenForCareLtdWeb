@@ -56,8 +56,7 @@ const faqs = [
   },
   {
     question: "What if I need to change the care plan?",
-    answer:
-      "We’re flexible and can adjust your care plan as needed.",
+    answer: "We’re flexible and can adjust your care plan as needed.",
   },
 ];
 
@@ -78,11 +77,11 @@ export default function Page() {
               </h1>
             </div>
 
-            <div className="mt-10 overflow-hidden rounded-[2rem] border border-white/80 bg-white p-4 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.18)]">
+            <div className="mt-10 overflow-hidden rounded-4xl border border-white/80 bg-white p-4 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.18)]">
               <Image
                 src={latestNewsImage}
                 alt="Abstract colourful artwork for care home guidance article"
-                className="h-[300px] w-full rounded-[1.55rem] object-cover sm:h-[420px]"
+                className="h-75 w-full rounded-[1.55rem] object-cover sm:h-105"
                 sizes="(max-width: 1024px) 100vw, 72vw"
               />
             </div>
@@ -90,17 +89,17 @@ export default function Page() {
             <div className="mx-auto mt-12 max-w-4xl">
               <p className="text-lg leading-9 text-slate-600">
                 Choosing the right care home can be a significant decision for
-                both you and your loved ones. It&apos;s essential to understand what
-                to look for to ensure the best possible care. Below, we outline
-                key considerations to help you make an informed choice.
+                both you and your loved ones. It&apos;s essential to understand
+                what to look for to ensure the best possible care. Below, we
+                outline key considerations to help you make an informed choice.
               </p>
 
               <h2 className="mt-12 text-3xl font-semibold tracking-tight text-slate-900">
                 Key Considerations for Selecting a Care Home
               </h2>
               <p className="mt-4 text-lg leading-9 text-slate-600">
-                When selecting a care home, there are several crucial factors
-                to consider:
+                When selecting a care home, there are several crucial factors to
+                consider:
               </p>
 
               <div className="mt-8 grid gap-5 px-1 sm:px-3">
@@ -122,7 +121,7 @@ export default function Page() {
                 ))}
               </div>
 
-              <section className="mt-12 rounded-[2rem] border border-white/80 bg-[#eef8f5] p-8 shadow-[0_22px_60px_-40px_rgba(15,23,42,0.14)]">
+              <section className="mt-12 rounded-4xl border border-white/80 bg-[#eef8f5] p-8 shadow-[0_22px_60px_-40px_rgba(15,23,42,0.14)]">
                 <h2 className="text-3xl font-semibold tracking-tight text-slate-900">
                   Emphasize Care Quality
                 </h2>
@@ -130,7 +129,7 @@ export default function Page() {
                   {highlights.map((item) => (
                     <div
                       key={item}
-                      className="relative overflow-hidden rounded-[1.5rem] border border-white/80 bg-white/70 px-5 py-4 text-[15px] font-medium leading-7 text-slate-700 shadow-[inset_0_1px_0_rgba(255,255,255,0.84),0_14px_30px_-24px_rgba(12,119,111,0.14)] sm:text-[16px]"
+                      className="relative overflow-hidden rounded-3xl border border-white/80 bg-white/70 px-5 py-4 text-[15px] font-medium leading-7 text-slate-700 shadow-[inset_0_1px_0_rgba(255,255,255,0.84),0_14px_30px_-24px_rgba(12,119,111,0.14)] sm:text-[16px]"
                     >
                       <div className="relative z-10 flex items-start gap-3">
                         <span className="mt-2 h-2.5 w-2.5 rounded-full bg-(--brand)" />
@@ -184,13 +183,13 @@ export default function Page() {
                 </div>
               </section>
 
-              <section className="mt-14 rounded-[2rem] border border-slate-200/80 bg-white px-8 py-10 text-center shadow-[0_22px_60px_-40px_rgba(15,23,42,0.14)]">
+              <section className="mt-14 rounded-4xl border border-slate-200/80 bg-white px-8 py-10 text-center shadow-[0_22px_60px_-40px_rgba(15,23,42,0.14)]">
                 <h2 className="font-serif text-4xl font-normal tracking-tight text-slate-900">
                   Contact Us
                 </h2>
                 <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-slate-600">
-                  If you need help choosing the right plan, our team is ready
-                  to guide you with clarity and compassion.
+                  If you need help choosing the right plan, our team is ready to
+                  guide you with clarity and compassion.
                 </p>
                 <div className="mt-8">
                   <Link
