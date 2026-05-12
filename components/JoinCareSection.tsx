@@ -48,12 +48,12 @@ export default function JoinCareSection() {
           {/* Soft top glow */}
           <div
             aria-hidden="true"
-            className="pointer-events-none absolute left-1/2 top-0 h-px w-2/5 -translate-x-1/2 bg-gradient-to-r from-transparent via-teal-400/60 to-transparent"
+            className="pointer-events-none absolute left-1/2 top-0 h-px w-2/5 -translate-x-1/2 bg-linear-to-r from-transparent via-teal-400/60 to-transparent"
           />
           {/* Soft bottom glow */}
           <div
             aria-hidden="true"
-            className="pointer-events-none absolute bottom-0 left-1/2 h-px w-2/5 -translate-x-1/2 bg-gradient-to-r from-transparent via-teal-400/40 to-transparent"
+            className="pointer-events-none absolute bottom-0 left-1/2 h-px w-2/5 -translate-x-1/2 bg-linear-to-r from-transparent via-teal-400/40 to-transparent"
           />
 
           {/* Content */}
