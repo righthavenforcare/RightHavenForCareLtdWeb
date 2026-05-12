@@ -21,12 +21,12 @@ export default function Page() {
               </h1>
             </div>
 
-            <article className="mt-14 grid gap-8 rounded-[2rem] border border-white/80 bg-white p-5 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.18)] sm:p-6 lg:grid-cols-[1.02fr_0.98fr] lg:items-center lg:gap-10">
+            <article className="mt-14 grid gap-8 rounded-4xl border border-white/80 bg-white p-5 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.18)] sm:p-6 lg:grid-cols-[1.02fr_0.98fr] lg:items-center lg:gap-10">
               <div className="overflow-hidden rounded-[1.6rem]">
                 <Image
                   src={latestNewsImage}
                   alt="Abstract colourful artwork for latest news article"
-                  className="h-[280px] w-full rounded-[1.6rem] object-cover sm:h-[360px] lg:h-[390px]"
+                  className="h-70 w-full rounded-[1.6rem] object-cover sm:h-90 lg:h-97"
                   sizes="(max-width: 1024px) 100vw, 48vw"
                 />
               </div>
@@ -40,10 +40,10 @@ export default function Page() {
                 </h2>
                 <p className="mt-5 text-lg leading-8 text-slate-600">
                   Choosing the right care home can be a significant decision for
-                  both you and your loved ones. It&apos;s essential to understand
-                  what to look for to ensure the best possible care. Below, we
-                  outline key considerations to help you make an informed
-                  choice.
+                  both you and your loved ones. It&apos;s essential to
+                  understand what to look for to ensure the best possible care.
+                  Below, we outline key considerations to help you make an
+                  informed choice.
                 </p>
 
                 <div className="mt-8">
