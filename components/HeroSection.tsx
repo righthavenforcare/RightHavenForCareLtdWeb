@@ -16,8 +16,9 @@ export default function HeroSection() {
             Promotional Offer! Care services starting from just GBP 19 per hour
           </div>
 
-          <h1 className="mt-6 max-w-2xl text-4xl font-semibold leading-tight tracking-tight text-slate-950 sm:text-[3.7rem] lg:text-[4.35rem]">
-            Your care, our commitment
+          <h1 className="mt-6 max-w-2xl font-serif text-4xl font-normal leading-[1.1] tracking-tight text-slate-900 sm:text-[3.7rem] lg:text-[4.35rem]">
+            Your <em className="italic text-(--brand)">care</em>, our
+            commitment
             <br />
             Compassion delivered at home
           </h1>

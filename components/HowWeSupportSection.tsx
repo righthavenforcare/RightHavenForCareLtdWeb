@@ -16,8 +16,9 @@ export default function HowWeSupportSection() {
             How we support you
           </div>
 
-          <h2 className="mt-6 text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
-            Thoughtful homecare that helps people feel safe, seen, and
+          <h2 className="mt-6 font-serif text-3xl font-normal leading-[1.15] tracking-tight text-slate-900 sm:text-4xl">
+            Thoughtful homecare that helps people feel{" "}
+            <em className="italic text-(--brand)">safe</em>, seen, and
             supported.
           </h2>
 
