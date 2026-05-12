@@ -1,6 +1,11 @@
 import Image from "next/image";
-import Link from "next/link";
 import heroImage from "../public/hero.webp";
+
+const careHighlights = [
+  "Personalised home support",
+  "Companionship and daily assistance",
+];
+
 export default function HeroSection() {
   return (
     <section className="relative overflow-hidden">
@@ -23,13 +28,25 @@ export default function HeroSection() {
             communities.
           </p>
 
-          <div className="mt-8">
-            <Link
-              href="/services"
-              className="inline-flex items-center rounded-full border border-white/75 bg-white/50 px-6 py-3 text-sm font-semibold text-(--brand) shadow-[0_18px_45px_-28px_rgba(12,119,111,0.45)] ring-1 ring-white/55 backdrop-blur-xl transition hover:bg-white/68 hover:text-(--brand-dark)"
-            >
-              Our Services
-            </Link>
+          <div className="mt-5 grid gap-4 sm:grid-cols-2">
+            {careHighlights.map((item, index) => (
+              <div
+                key={item}
+                className="group relative overflow-hidden rounded-[1.8rem] border border-white/80 bg-[rgba(214,241,236,0.58)] px-5 py-5 text-sm font-medium leading-6 text-slate-700 shadow-[inset_0_1px_0_rgba(255,255,255,0.82),inset_0_-1px_0_rgba(12,119,111,0.08),0_18px_44px_-30px_rgba(12,119,111,0.22)] ring-1 ring-[rgba(255,255,255,0.55)] transition hover:-translate-y-0.5 hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.88),inset_0_-1px_0_rgba(12,119,111,0.1),0_22px_52px_-30px_rgba(12,119,111,0.26)]"
+                style={{
+                  transform: index === 1 ? "translateY(3px)" : "translateY(0)",
+                }}
+              >
+                <div className="pointer-events-none absolute inset-[1px] rounded-[1.65rem] border border-white/35" />
+                <div className="pointer-events-none absolute inset-x-6 top-0 h-px bg-white/95" />
+                <div className="pointer-events-none absolute bottom-0 left-8 right-8 h-px bg-[rgba(12,119,111,0.12)]" />
+                <div className="pointer-events-none absolute right-3 top-2 h-10 w-20 rounded-full border border-white/45 opacity-60" />
+                <div className="relative z-10 flex items-start gap-3">
+                  <span className="mt-1.5 h-2.5 w-2.5 rounded-full bg-(--brand) shadow-[0_0_18px_rgba(12,119,111,0.4)] animate-pulse [animation-duration:2.4s]" />
+                  <span>{item}</span>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
 
