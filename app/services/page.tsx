@@ -193,12 +193,12 @@ export default function Page() {
             </div>
 
             <div className="relative">
-              <div className="overflow-hidden rounded-[2rem] border border-white/80 bg-white/75 p-3 shadow-[0_22px_54px_-34px_rgba(15,23,42,0.2)]">
+              <div className="overflow-hidden rounded-4xl border border-white/80 bg-white/75 p-3 shadow-[0_22px_54px_-34px_rgba(15,23,42,0.2)]">
                 <Image
                   src={staffImage}
                   alt="Qualified care professionals from Right Haven For Care"
                   sizes="(max-width: 1024px) 100vw, 48vw"
-                  className="h-[320px] w-full rounded-[1.5rem] object-cover sm:h-[430px]"
+                  className="h-80 w-full rounded-3xl object-cover sm:h-107"
                 />
               </div>
             </div>
