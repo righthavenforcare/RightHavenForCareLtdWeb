@@ -117,7 +117,7 @@ export default function OurValuesSection() {
                 />
 
                 {/* Faint index number */}
-                <span className="pointer-events-none absolute right-6 top-5 select-none font-mono text-5xl font-bold leading-none tracking-tighter text-slate-100 transition-colors duration-300 group-hover:text-slate-200">
+                <span className="pointer-events-none absolute right-6 top-5 select-none font-mono text-5xl font-bold leading-none tracking-tighter text-slate-200 transition-colors duration-300 group-hover:text-slate-300">
                   {value.number}
                 </span>
 

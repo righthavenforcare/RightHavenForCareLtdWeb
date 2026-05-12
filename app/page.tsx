@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import HowWeSupportSection from "../components/HowWeSupportSection";
+import JoinCareSection from "../components/JoinCareSection";
 import OurValuesSection from "../components/OurValuesSection";
 
 const page = () => {
@@ -10,6 +11,7 @@ const page = () => {
       <HeroSection />
       <HowWeSupportSection />
       <OurValuesSection />
+      <JoinCareSection />
     </main>
   );
 };
