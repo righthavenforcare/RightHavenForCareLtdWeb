@@ -9,7 +9,7 @@ const supportPoints = [
 
 export default function HowWeSupportSection() {
   return (
-    <section className="px-5 py-18 sm:px-6 sm:py-22 lg:px-8">
+    <section className="bg-(--background) px-5 py-18 sm:px-6 sm:py-22 lg:px-8">
       <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:gap-16">
         <div className="max-w-2xl">
           <div className="inline-flex rounded-full border border-(--border) bg-white px-4 py-2 text-sm font-semibold text-(--brand) shadow-[0_12px_30px_-22px_rgba(12,119,111,0.3)]">
@@ -62,7 +62,6 @@ export default function HowWeSupportSection() {
               src={landingImage}
               alt="A caregiver assisting an older adult at home"
               preload
-              quality={100}
               sizes="(max-width: 1024px) 100vw, 54vw"
               className="h-80 w-full rounded-[1.6rem] object-cover sm:h-105 lg:h-130"
             />

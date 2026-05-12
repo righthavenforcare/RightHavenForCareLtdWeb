@@ -9,7 +9,13 @@ const careHighlights = [
 export default function HeroSection() {
   return (
     <section className="relative overflow-hidden">
-      <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,rgba(215,241,235,0.95),transparent_35%),linear-gradient(180deg,#fffdf8_0%,#ffffff_62%,#f6fbfa_100%)]" />
+      <div
+        className="absolute inset-0 -z-10"
+        style={{
+          backgroundImage:
+            "radial-gradient(circle at top left, rgba(215, 241, 235, 0.95), transparent 35%), linear-gradient(180deg, #fffdf8 0%, #ffffff 62%, #f6fbfa 100%)",
+        }}
+      />
       <div className="mx-auto grid max-w-7xl gap-14 px-5 pb-16 pt-10 sm:px-6 sm:pb-24 sm:pt-14 lg:grid-cols-[1fr_1.03fr] lg:items-center lg:gap-12 lg:px-8 lg:pt-18">
         <div className="max-w-3xl">
           <div className="promo-pill inline-flex rounded-full border border-(--border) bg-white/80 px-4 py-2 text-sm font-semibold text-(--brand) shadow-sm backdrop-blur-md">
@@ -61,7 +67,6 @@ export default function HeroSection() {
                 src={heroImage}
                 alt="Caregiver supporting an older adult at home"
                 preload
-                quality={100}
                 unoptimized
                 sizes="(max-width: 1024px) 100vw, 52vw"
                 className="h-[320px] w-full rounded-3xl object-cover object-[68%_36%] sm:h-[380px] lg:h-[470px]"
