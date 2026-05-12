@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import HowWeSupportSection from "../components/HowWeSupportSection";
@@ -12,6 +13,7 @@ const page = () => {
       <HowWeSupportSection />
       <OurValuesSection />
       <JoinCareSection />
+      <Footer />
     </main>
   );
 };
