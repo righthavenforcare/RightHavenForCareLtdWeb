@@ -16,6 +16,11 @@ export const metadata: Metadata = {
   title: "Right Haven For Care",
   description:
     "Personalized Homecare services tailored to your needs. Compassionate care delivered at home.",
+  icons: {
+    icon: "/rightcarelogo.png",
+    shortcut: "/rightcarelogo.png",
+    apple: "/rightcarelogo.png",
+  },
 };
 
 export default function RootLayout({
