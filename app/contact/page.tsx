@@ -1,4 +1,5 @@
 import { Mail, MapPin, Phone } from "lucide-react";
+import ContactForm from "./ContactForm";
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 
@@ -49,40 +50,7 @@ export default function Page() {
 
             <div className="mt-14 grid gap-8 rounded-4xl border border-white/80 bg-white p-5 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.18)] sm:p-6 lg:grid-cols-[1.05fr_0.95fr] lg:gap-10">
               <div className="rounded-[1.7rem] border border-slate-200/80 bg-[#fcfdfc] p-6 sm:p-7">
-                <form className="space-y-4">
-                  <input
-                    type="text"
-                    placeholder="Name"
-                    className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-[15px] text-slate-700 outline-none transition placeholder:text-slate-400 focus:border-(--brand)"
-                  />
-                  <input
-                    type="tel"
-                    placeholder="Your contact number"
-                    className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-[15px] text-slate-700 outline-none transition placeholder:text-slate-400 focus:border-(--brand)"
-                  />
-                  <input
-                    type="email"
-                    placeholder="Your email"
-                    className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-[15px] text-slate-700 outline-none transition placeholder:text-slate-400 focus:border-(--brand)"
-                  />
-                  <select className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-[15px] text-slate-700 outline-none transition focus:border-(--brand)">
-                    <option>Appointment Booking</option>
-                    <option>General Enquiry</option>
-                    <option>Care Assessment</option>
-                    <option>Staffing Enquiry</option>
-                  </select>
-                  <textarea
-                    placeholder="Your message"
-                    rows={7}
-                    className="w-full rounded-3xl border border-slate-200 bg-white px-4 py-3 text-[15px] text-slate-700 outline-none transition placeholder:text-slate-400 focus:border-(--brand)"
-                  />
-                  <button
-                    type="submit"
-                    className="inline-flex items-center justify-center rounded-full bg-(--brand) px-7 py-3.5 text-sm font-semibold text-white shadow-[0_18px_40px_-18px_rgba(12,119,111,0.62)] transition hover:bg-(--brand-dark)"
-                  >
-                    Send Now
-                  </button>
-                </form>
+                <ContactForm />
               </div>
 
               <div className="flex flex-col justify-center">
