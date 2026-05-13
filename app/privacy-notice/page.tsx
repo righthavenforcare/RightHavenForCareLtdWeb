@@ -17,7 +17,7 @@ export default function Page() {
               </h1>
             </div>
 
-            <div className="mt-12 rounded-[2rem] border border-slate-200/80 bg-white p-8 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.16)] sm:p-10">
+            <div className="mt-12 rounded-4xl border border-slate-200/80 bg-white p-8 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.16)] sm:p-10">
               <div className="space-y-4">
                 <p className="leading-8 text-gray-700">
                   Right Haven For Care is committed to handling personal
@@ -36,9 +36,9 @@ export default function Page() {
                   National data opt-out
                 </h2>
                 <p className="leading-8 text-gray-700">
-                  Where applicable, we respect national data opt-out
-                  preferences and aim to process information in line with legal,
-                  regulatory, and care delivery requirements.
+                  Where applicable, we respect national data opt-out preferences
+                  and aim to process information in line with legal, regulatory,
+                  and care delivery requirements.
                 </p>
               </section>
 
