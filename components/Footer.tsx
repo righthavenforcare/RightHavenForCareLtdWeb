@@ -110,12 +110,12 @@ export default function Footer() {
           <p className="font-serif text-[1.35rem] font-normal tracking-tight text-slate-700 sm:text-[1.55rem]">
             Designed and Developed by{" "}
             <Link
-              href="https://noveltylab.io"
+              href="https://www.righthavenforcare.co.uk/"
               target="_blank"
               rel="noreferrer"
               className="text-(--brand) underline-offset-4 transition hover:text-(--brand-dark) hover:decoration-teal-500"
             >
-              Novelty Lab
+              Delta Technologies
             </Link>
           </p>
         </div>
