@@ -12,8 +12,8 @@ const contactDetails = [
   },
   {
     label: "Mail",
-    value: "righthavenforcare@gmail.com",
-    href: "mailto:righthavenforcare@gmail.com",
+    value: "info@righthavenforcare.co.uk",
+    href: "mailto:info@righthavenforcare.co.uk",
     icon: Mail,
   },
   {
